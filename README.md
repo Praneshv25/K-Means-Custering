@@ -1,6 +1,8 @@
-# NFL Receivers Analysis with K-means Clustering
+# NFL Receivers Analysis with custom K-means Clustering
 
 ## Project Overview
+
+In this project, a custom K-means clustering algorithm was implemented from scratch to analyze the performance of NFL receivers. The custom implementation allows for flexibility in parameter tuning and optimization tailored to the specific dataset and requirements of the analysis.
 
 This project involves performing a K-means clustering analysis on NFL receivers using five key features:
 - **Games Played**
@@ -44,58 +46,9 @@ The features selected for clustering are:
 3. **Cluster Analysis**: Analyzing the resulting clusters to interpret the characteristics and performance of receivers in each group.
 
 ## Results
-
+![](https://github.com/Praneshv25/K-Means-Custering/blob/main/Screenshot%202024-05-30%20at%203.04.28%E2%80%AFPM.png)
 The analysis resulted in distinct clusters of NFL receivers, each with unique performance profiles. These clusters can be used for further insights, such as identifying top performers, consistent players, and those with specific strengths.
-
-## How to Run the Project
-
-### Prerequisites
-
-- Python 3.x
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib (for visualizations, if any)
-- Jupyter Notebook (optional, for interactive analysis)
-
-### Instructions
-
-1. **Clone the Repository**
-
-   ```sh
-   git clone https://github.com/yourusername/nfl-receivers-clustering.git
-   cd nfl-receivers-clustering
-   ```
-
-2. **Install the Required Packages**
-
-   ```sh
-   pip install pandas numpy scikit-learn matplotlib
-   ```
-
-3. **Run the Analysis**
-
-   Open the Jupyter Notebook `nfl_receivers_analysis.ipynb` and run all cells to perform the clustering analysis. Alternatively, you can run the Python script `nfl_receivers_analysis.py`:
-
-   ```sh
-   python nfl_receivers_analysis.py
-   ```
-
-## Repository Structure
-
-- `data/`: Contains the dataset used for the analysis.
-- `nfl_receivers_analysis.ipynb`: Jupyter Notebook with the complete analysis.
-- `nfl_receivers_analysis.py`: Python script for the analysis.
-- `README.md`: Project documentation.
 
 ## Conclusion
 
 This project demonstrates the application of K-means clustering to analyze NFL receivers based on key performance metrics. The resulting clusters provide valuable insights into the performance and characteristics of different receivers.
-
-## Contact
-
-For any questions or suggestions, please reach out to [yourname@domain.com](mailto:yourname@domain.com).
-
----
-
-This README provides a comprehensive overview of your project, including the methodology, results, and instructions for running the analysis. Adjust the content as necessary to fit your specific project details and dataset.
